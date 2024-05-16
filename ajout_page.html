@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajout_page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="title-content">
+                <h1 class="title">Gestion Des Livres</h1>
+                <button id="addLivreModalButton" type="button">Ajouter un livres</button>
+            </div>
+            <div class="modal" id="livremodal">
+            <div class="modal-content"> 
+                <span class="close">X</span>
+                <div class="form">
+                    <form method="post">
+                            <label for="titre">Titre</label>
+                            <input class="form-input" type="text" name="titre" id="titre" />                          
+                            <label for="auteur">Auteur</label>
+                            <input class="form-input" type="text" name="auteur" id="auteur" />
+                            <button type="submit" class="addLivreButton">Ajouter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <h4 id="pretexte">Vous n'avez pas de livre pour le moment , Vous pouvez en ajoutez en remplissant le formulaire ci dessus</h4>
+
+        <div class="bloc">
+            <h3 id="titre1">Livres à lire</h2>
+            <ul class="alire" id="alire"></ul>
+        </div>
+        
+        <div class="bloc2">
+            <h3 id="titre2">Livres lus</h2>
+            <ul class="lu" id="lu"></ul>
+        </div>
+        
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
