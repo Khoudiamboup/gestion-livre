@@ -9,7 +9,7 @@ header{
     height: 450px;
     top: 0;
     left: 0;
-    background-image: url("../img/t.jpg");
+    background-image: url("img/t.jpg");
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     box-shadow: 0px 2px 4px rgb(44, 62, 80, 0.15);
